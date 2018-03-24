@@ -5,11 +5,11 @@ paginate: 100 # it will paginate after this number
 language: 'en-uk'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl:/
+baseurl:
 
 # Website info
-title: Ykss's Coding Space
-description: HGU, Computer science & Business Management, CRA
+title: "Ykss's Coding Space"
+description: "HGU, Computer science & Business Management, CRA"
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
