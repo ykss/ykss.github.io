@@ -9,7 +9,7 @@ baseurl:
 
 # Website info
 title: "Ykss's Coding Space"
-description: "HGU, Computer science & Business Management, CRA"
+description: "HGU, Computer Science & Business Management, CRA"
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
@@ -23,7 +23,7 @@ subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
 twitter: tryghost # replace by your username
-facebook: ykss # replace by your username
+facebook: kyeongsang.yu # replace by your username
 
 # Disqus
 disqus: False
