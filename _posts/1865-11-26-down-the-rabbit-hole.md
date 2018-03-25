@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 current: post
 cover: 'assets/images/piano.jpg'
@@ -59,4 +59,4 @@ Soon her eye fell on a little glass box that was lying under the table: she open
 
 She ate a little bit, and said anxiously to herself, 'Which way? Which way?', holding her hand on the top of her head to feel which way it was growing, and she was quite surprised to find that she remained the same size: to be sure, this generally happens when one eats cake, but Alice had got so much into the way of expecting nothing but out-of-the-way things to happen, that it seemed quite dull and stupid for life to go on in the common way.
 
-So she set to work, and very soon finished off the cake.
+So she set to work, and very soon finished off the cake. -->
