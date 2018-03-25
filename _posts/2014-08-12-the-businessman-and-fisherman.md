@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: post
 current: post
 cover: assets/images/water.jpg
@@ -45,4 +45,4 @@ The American laughed and said, “That’s the best part. When the time is right
 
 Adapted from the "Anekdote zur Senkung der Arbeitsmoral" by **Heinrich Böll**
 
-An influential German write and Nobel Prize for Literature in 1972. -->
+An influential German write and Nobel Prize for Literature in 1972.

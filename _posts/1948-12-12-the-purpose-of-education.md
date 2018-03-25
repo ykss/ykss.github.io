@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: post
 current: post
 cover: assets/images/grapes.jpg
@@ -23,4 +23,4 @@ The late Eugene Talmadge, in my opinion, possessed one of the better minds of Ge
 
 We must remember that intelligence is not enough. Intelligence plus character--that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.
 
-If we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, "brethren!" Be careful, teachers! -->
+If we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, "brethren!" Be careful, teachers!

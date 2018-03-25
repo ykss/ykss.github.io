@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: post
 current: post
 cover: 'assets/images/summit.jpg'
@@ -38,4 +38,4 @@ The King was saying, ‘I assure, you my dear, I turned cold to the very ends of
 To which the Queen replied, ‘You haven’t got any whiskers.’
 ‘The horror of that moment,’ the King went on, ‘I shall never, never forget!’ ‘You will, though,’ the Queen said, ‘if you don’t make a memorandum of it.’ Alice looked on with great interest as the King took an enormous memorandum-book out of his pocket, and began writing. A sudden thought struck her, and she took hold of the end of the pencil, which came some way over his shoulder, and began writing for him.
 The poor King looked puzzled and unhappy, and struggled with the pencil for some time without saying anything; but Alice was too strong for him, and at last he panted out, ‘My dear! I really must get a thinner pencil. I can’t manage this one a bit; it writes all manner of things that I don’t intend —’
-‘What manner of things?’ said the Queen, looking over the book (in which Alice had put ‘the White Knight is sliding down the poker. He balances very badly’) ‘That’s not a memorandum of your feelings!’ -->
+‘What manner of things?’ said the Queen, looking over the book (in which Alice had put ‘the White Knight is sliding down the poker. He balances very badly’) ‘That’s not a memorandum of your feelings!’

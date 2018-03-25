@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: post
 current: post
 cover: assets/images/sky.jpg
@@ -100,4 +100,4 @@ And when this happens, and when we allow freedom ring, when we let it ring from 
 
 *Free at last! Free at last!*
 
-*Thank God Almighty, we are free at last!* -->
+*Thank God Almighty, we are free at last!*
