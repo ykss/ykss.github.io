@@ -1,8 +1,5 @@
 ---
 layout: default
-current: page
-class: page-template
-disqus: false
 ---
 
 <!-- < default -->
@@ -21,7 +18,7 @@ into the {body} of the default.hbs template -->
 
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
-
+        <div id="search-result" style="display: none;"></div>
         <article class="post-full {{ page.subclass }} {% unless page.cover %}no-image{% endunless %}">
 
             <header class="post-full-header">
