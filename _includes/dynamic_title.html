@@ -1,20 +1,17 @@
+
 <!-- dynamically fixing the title for tag/author pages -->
 {% if page.url %}
   {% if page.url contains "tag/" %}
-      {% assign title = page.url | split: '/' | last | url_decode %}
+      {% assign title = page.url | remove: 'tag' | remove: '/' | replace: '-', ' ' | capitalizeall %}
   {% elsif page.url contains "author/" %}
       {% assign username = page.url | remove: 'author' | remove: '/' | replace: '-', ' ' | remove: ' ' %}
       {% for author in site.data.authors %}
           {% if author[1].username == username %}
-              {% assign title = author[1].name | appendL '에 대하여' %}
+              {% assign title = author[1].name %}
           {% endif %}
       {% endfor %}
-   {% elsif page.url contains "Statistics.PastTestQuestions/h-" or page.url contains "Statistics.PastTestQuestions/i-" %}
-        {% assign new_var = page.slug | prepend: '/' %}
-        {% assign examtag = page.url | remove_first: new_var | split: '/' | last | split: '-'%}
-        {% assign year = examtag[1] | replace: '/', '' | plus:0 %}
-        {% assign exam = examtag[0] %}{% capture title %}
-        {% if page.slug == 'index' %}{{ year }}년 {{ exam  | replace: 'h', '행정고시' | replace: 'i', '입법고시' }} 통계학
-        {% else %}{{ year }}년 {{ exam  | replace: 'h', '행정고시' | replace: 'i', '입법고시' }} 통계학 제 {{ page.slug }}문{% endif %}{% endcapture %}
   {% endif %}
+{% endif %}
+{% if title %}
+  {% assign title = title | append: ' - ' | append: site.title  %}
 {% endif %}
