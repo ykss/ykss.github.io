@@ -14,7 +14,7 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: ykss.github.io
+production_url: ykss.github.io/
 source_url: https://github.com/ykss/ykss.github.io.git
 
 # Social info
@@ -67,11 +67,11 @@ feed:
 safe: False
 lsi: False
 username: ykss
-repo: ykss.github.io
+repo: ykss.github.io/
 branch: master
 # relative_source: ../jasper2/
 # destination: ../jasper2-pages/
-production_url:  ykss.github.io
+production_url:  ykss.github.io/
 source_url:  https://github.com/ykss/ykss.github.io.git
 
 exclude:
