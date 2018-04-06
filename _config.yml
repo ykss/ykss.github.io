@@ -41,10 +41,11 @@ permalink: /:title
 # Tags' info in `_data/tags_info.yml`
 
 # gems and other configs
-plugins: [jekyll-paginate, jekyll-feed, new webpack.ProvidePlugin({
-      $: "jquery",
-      jQuery: "jquery"
-    })]
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-assets
 feed:
   path: feed.xml
 
