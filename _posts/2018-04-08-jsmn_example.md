@@ -5,7 +5,7 @@ cover:  assets/images/lab4_3.png
 navigation: True
 title: Open Source Software - Lab mission 3 - jsmn example code analysis
 date: 2018-04-08 23:45:00
-tags: [jsmn2]
+tags: [jsmn]
 class: post-template
 subclass: 'post tag-getting-started'
 author: ykss
