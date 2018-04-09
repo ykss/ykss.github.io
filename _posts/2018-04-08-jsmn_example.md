@@ -75,11 +75,15 @@ static inline void *realloc_it(void *ptrmem, size_t size) {
 
 
 1) `jsmn_parser p;` : main함수에서 jsmn_parser 타입의 변수 p를 선언
+
 2) `jsmntok_t t[128];`  : jsmntok_t 타입의 배열 변수 t[128] 선언. 토큰이 저장되는 곳.
+
 3) ` jsmn_init(&p); `: jsmn_init 함수를 p의 주소값을 파라미터로 호출하여 사용가능한 토큰 배열을 
 ​    사용하여 제공된 버퍼를 기반으로 new JSON parser를 만들고 파서를 초기화한다.
+
 4) `r = jsmn_parse(&p, JSON_STRING, strlen(JSON_STRING), t, sizeof(t)/sizeof(t[0]));`
 ​    : jsmn_ parse함수를 호출하여 JSON parser를 실행한다. 호출할 때 , p의 주소값과 예시 데이터가 ​      들어있는 JSON_STRING과 그 배열의 길이, 그리고 저장할 토큰 배열등이 파라미터로 전달된다. 그리고 리턴 값인 저장된 토큰의 개수가 r에 저장된다.  그리고 각 토큰에 데이터 타입에 맞게 파싱된 데이터가 저장된다. 
+
 5) `jsmntok_t *g = &t[i+j+2];`  : array 타입 저장 시 jsmntok_t 타입의 토큰 변수 g를 하나 만들어 따로 저장한다.
 
 
@@ -88,8 +92,11 @@ static inline void *realloc_it(void *ptrmem, size_t size) {
 
 
 1)`jsmn_parser p;` : parser 타입의 변수 p 선언.
+
 2)`jsmntok_t *tok;` : token 생성
+
 3) `jsmn_init(&p);` : jsmn_init 함수를 p의 주소값을 파라미터로 호출하여 사용가능한 토큰 배열을 사용하여 제공된 버퍼를 기반으로 new JSON parser를 만들고 파서를 초기화한다.
+
 4) `r = jsmn_parse(&p, js, jslen, tok, tokcount);` :  여러가지 파라미터를 보내 파싱하고 r에는 ​    저장된 토큰의 개수가 저장된다. 그리고 r<0이고 에러가 나면 토큰개수를 두배로 늘리고 메모리를 재할당 한다. 그리고 goto문을 통해 다시 jsmn_parse()를 호출한다. 그리고 r>=0이면 dump() 함수를 호출한다.
 
 
