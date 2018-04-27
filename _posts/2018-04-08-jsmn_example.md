@@ -3,7 +3,7 @@ layout: post
 current: post
 cover:  assets/images/lab4_3.png
 navigation: True
-title: Open Source Software - Lab mission 3 - jsmn example code analysis
+title: Open Source Software - Lab mission 4 - jsmn example code analysis
 date: 2018-04-08 23:45:00
 tags: [jsmn]
 class: post-template
