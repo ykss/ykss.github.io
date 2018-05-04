@@ -12,7 +12,7 @@ fables:
   cover: assets/images/fables.jpg
 linux:
   name: linux
-  description: False
+  description: 리눅스와 관련된 정보입니다.
   cover: False
 jsmn:
   name: jsmn
