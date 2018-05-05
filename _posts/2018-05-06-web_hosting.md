@@ -3,7 +3,7 @@ layout: post
 current: post
 cover:  assets/images/lab7_17.png
 navigation: True
-title: Open Source Software - Lab mission 6 - LINUX Web Hosting Service Setup
+title: Open Source Software - Lab mission 7 - LINUX Web Hosting Service Setup
 date: 2018-05-06 02:40:00
 tags: [linux]
 class: post-template
