@@ -428,7 +428,7 @@ $ a2ensite /etc/apache2/sites-available/ykss.com
 
 /etc/hosts 파일을 수정하여 
 
-<ip주소> <domain이름> 을 추가해주면 호스트를 지정해줄수 있다. 
+ip주소 domain이름 을 추가해주면 호스트를 지정해줄수 있다. 
 
 
 
