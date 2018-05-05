@@ -412,7 +412,7 @@ $ a2ensite /etc/apache2/sites-available/ykss.com
 
 코드에 아래와 같은 코드를 추가한다.
 
- <Directory /home/ykss.com/www/>
+ **<Directory /home/ykss.com/www/>**
 
 ​        **Options Indexes FollowSymLinks**
 
@@ -429,8 +429,6 @@ $ a2ensite /etc/apache2/sites-available/ykss.com
 /etc/hosts 파일을 수정하여 
 
 ip주소 domain이름 을 추가해주면 호스트를 지정해줄수 있다. 
-
-
 
 저장한 후 아파치를 실행한 후 재시작 하면 아래와 같이 접속한 화면을 볼 수 있다.
 
