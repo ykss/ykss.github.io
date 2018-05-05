@@ -434,11 +434,14 @@ $ a2ensite /etc/apache2/sites-available/ykss.com
 
 저장한 후 아파치를 실행한 후 재시작 하면 아래와 같이 접속한 화면을 볼 수 있다.
 
+
 ````
 $ service apache2 restart
 ````
 
+
 ![lab7_15](/assets/images/lab7_15.png)
+
 
 
 
