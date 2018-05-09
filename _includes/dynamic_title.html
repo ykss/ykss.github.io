@@ -3,14 +3,13 @@
   {% if page.url contains "tag/" %}
       {% assign title = page.url | remove: 'tag' | remove: '/' | replace: '-', ' ' | capitalizeall %}
   {% elsif page.url contains "author/" %}
-      {% assign username = page.url | remove: 'author' | remove: '/' | replace: '-', ' ' | remove: ' ' %}
-      {% for author in site.data.authors %}
-          {% if author[1].username == username %}
-              {% assign title = author[1].name %}
-          {% endif %}
-      {% endfor %}
+    {% assign username = page.url | remove: 'author' | remove: '/' | replace: '-', ' ' | remove: ' ' %}
+    {% for author in site.data.authors %}
+        {% if author[1].username == username %}
+            {% assign title = author[1].name | appendL '에 대하여' %}
+        {% endif %}
+    {% endfor %}
   {% endif %}
-{% endif %}
 {% if title %}
   {% assign title = title | append: ' - ' | append: site.title  %}
 {% endif %}
