@@ -18,3 +18,7 @@ jsmn:
   name: jsmn
   description: jsmn 코드 분석입니다.
   cover: False
+etc:
+  name: etc
+  description: 이것저것 
+  cover: False
