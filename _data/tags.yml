@@ -14,3 +14,4 @@ db:
   name: db
   description: 데이터베이스
   cover: False
+  
