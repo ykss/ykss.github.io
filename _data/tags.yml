@@ -1,16 +1,16 @@
-linux:
+ linux:
   name: linux
   description: 리눅스와 관련된 정보입니다.
   cover: False
-jsmn:
+ jsmn:
   name: jsmn
   description: jsmn 코드 분석입니다.
   cover: False
-etc:
+ etc:
   name: etc
   description: 이것저것 
   cover: False
-db:
+ db:
   name: db
   description: 데이터베이스
   cover: False
