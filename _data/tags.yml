@@ -1,17 +1,20 @@
- linux:
+speeches:
+  name: speeches
+  description: Some of the greatest words ever spoken.
+  cover: assets/images/speeches.jpg
+fiction:
+  name: fiction
+  description: False
+  cover: False
+fables:
+  name: fables
+  description: A series of short stories that make you think.
+  cover: assets/images/fables.jpg
+linux:
   name: linux
-  description: False
+  description: 리눅스와 관련된 정보입니다.
   cover: False
- jsmn:
+jsmn:
   name: jsmn
-  description: False
+  description: jsmn 코드 분석입니다.
   cover: False
- etc:
-  name: etc
-  description: False
-  cover: False
- db:
-  name: db
-  description: False
-  cover: False
-  
