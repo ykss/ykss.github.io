@@ -5,4 +5,4 @@ title: db
 
 # DB 
 
-* ### 5.13 [db_mysql](http://ykss.github.io/db_mysql)
+* ### 5.13 [데이터베이스와 MYSQL](http://ykss.github.io/dbmysql)
