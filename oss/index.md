@@ -12,3 +12,4 @@ published: true
 * ### 4.8 [JSMN EXAMPLE CODE ANALYSIS](http://ykss.github.io/jsmn_example)
 * ### 4.27 [Ubuntu & APM - setting](https://ykss.github.io/Ubuntu&APM-setting)
 * ### 5.6 [Web hosting](https://ykss.github.io/web_hosting)
+* ### 5.18 [Wordpress setup](https://ykss.github.io/wordpress)
