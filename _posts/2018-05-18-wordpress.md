@@ -21,7 +21,13 @@ $ sudo useradd -m <username>
 기본 폴더가 생성되지 않아서 붙여줬다.
 `passwd` 명령어로 유저의 비밀번호 설정이 가능하다.
 
-2. 워드프레스 데이터베이스 생성
+2. 워드프레스 다운로드
+```
+ $ cd /home/wpuser/www
+ $ wget http://ko.wordpress.org/wordpress-3.6-ko_KR.tar.gz
+ $ tar -xvzf wordpress-3.6-ko_KR.tar.gz
+```
+위의 커맨드와 같이 생성한 유저 폴더에 워드프레스를 다운받고 압축을 해제한다.
 
 3. 
 
