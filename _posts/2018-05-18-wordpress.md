@@ -29,6 +29,13 @@ $ sudo useradd -m <username>
 ```
 위의 커맨드와 같이 생성한 유저 폴더에 워드프레스를 다운받고 압축을 해제한다.
 
-3. 
+3. mysql에 데이터베이스 준비
+```
+$ mysql -u root -p
+mysql> create database wordpress;
+mysql> create user 'root'@'localhost'identify by '암호';
+mysql> grant all on wpdb.* to 'root'@'localhost';
+mysql> flush previleges;
+```
 
-
+4. wp.config파일 준비
