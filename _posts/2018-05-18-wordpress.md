@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/basic.png
+cover:  assets/images/lab8_2.png
 navigation: True
 title: Open Source Software - Lab mission 8 - Wordpress setup in ubuntu
 date: 2018-05-18 22:00:00
@@ -49,10 +49,7 @@ mysql> flush previleges;
 위와 같이 DB이름, 유저이름, 비밀번호, 호스트서버를 입력하고
 저장하면, wp.config 파일의 준비가 완료된다.
 
-또는, 웹상에서 아래와 같이 설정도 가능하다.
-
-![lab8_3](/assets/images/lab8_3.png)
-
+또는, 웹상에서 설정도 가능하다.
 설정을 성공적으로 마치면 wp.config 파일이 생성된다.
 
 5. 워드프레스 작동 확인
