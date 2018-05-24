@@ -39,3 +39,29 @@ mysql> flush previleges;
 ```
 
 4. wp.config파일 준비
+
+![lab8_2](/assets/images/lab8_2.png)
+
+위와 같은 화면이 뜬다면 워드프레스가 성공적으로 설치된 것이다.
+
+![lab8_1](/assets/images/lab8_1.png)
+
+위와 같이 DB이름, 유저이름, 비밀번호, 호스트서버를 입력하고
+저장하면, wp.config 파일의 준비가 완료된다.
+
+또는, 웹상에서 아래와 같이 설정도 가능하다.
+
+![lab8_3](/assets/images/lab8_3.png)
+
+설정을 성공적으로 마치면 wp.config 파일이 생성된다.
+
+5. 워드프레스 작동 확인
+
+localhost/wordpress 에 접속하게 되면 아래와 같이 
+로그인 화면이 뜬다.
+
+![lab8_4](/assets/images/lab8_4.png)
+
+설정한 아이디와 비밀번호로 접속에 성공하면 바르게 작동하는 것이다.
+
+![lab8_5](/assets/images/lab8_5.png)
