@@ -68,4 +68,4 @@ make 명령어를 통해 실행파일을 생성한다.
 
 ![lab8_14](/assets/images/lab8_14.png)
 
-
+ 
