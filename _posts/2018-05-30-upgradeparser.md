@@ -35,7 +35,7 @@ author: ykss
 ![lab9_2](/assets/images/lab9_2.png)
 
 
-##3. Json keys 출력 - printkeys() 구현
+## 3. Json keys 출력 - printkeys() 구현
 
 아래와 같은 함수로 json에서 keys에 해당하는 값만 출력할 수 있다.
 
@@ -45,14 +45,14 @@ author: ykss
 
 ![lab9_6](/assets/images/lab9_6.png)
 
-##4. Json key token array 찾기 - findkeys() 구현
+## 4. Json key token array 찾기 - findkeys() 구현
 
 아래와 같이 키에 해당하는 토큰의 번호만 keys라는 int형 포인트 배열에 저장하고
 그 개수를 반환한다.
 
 ![lab9_9](/assets/images/lab9_10.png)
 
-##5. 키 토큰별로 해당 값을 출력 - printvalues() 구현
+## 5. 키 토큰별로 해당 값을 출력 - printvalues() 구현
 
 key : value 의 형식으로 출력하는 함수이다.
 
