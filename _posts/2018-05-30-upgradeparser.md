@@ -5,7 +5,7 @@ cover:  assets/images/design.jpg
 navigation: True
 title: Open Source Software - Lab mission 9 - Find keys and value from json
 date: 2018-05-30 22:00:00
-tags: [linux]
+tags: [jsmn]
 class: post-template
 subclass: 'post tag-getting-started'
 author: ykss

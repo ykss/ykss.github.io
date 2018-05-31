@@ -5,7 +5,7 @@ cover:  assets/images/writing.jpg
 navigation: True
 title: Open Source Software - Lab mission 8 - Parse Json File
 date: 2018-05-24 22:00:00
-tags: [linux]
+tags: [jsmn]
 class: post-template
 subclass: 'post tag-getting-started'
 author: ykss
