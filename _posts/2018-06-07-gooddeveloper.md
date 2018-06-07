@@ -5,7 +5,7 @@ cover:  assets/images/bus.jpg
 navigation: True
 title: 좋은 개발자란??
 date: 2018-06-07 22:00:00
-tags: [jsmn]
+tags: [etc]
 class: post-template
 subclass: 'post tag-getting-started'
 author: ykss
