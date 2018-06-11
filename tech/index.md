@@ -1,10 +1,9 @@
 ---
 layout: post
-title: tech
+title: TECH
 published: true
 ---
 
 # 기술 조사
 
-* ### 아직 게시물이 없습니다.
-업데이트 예정입니다.
+* ### 6.10 [크로스 플랫폼 솔루션 - **FLUTTER**](http://ykss.github.io/flutter)
