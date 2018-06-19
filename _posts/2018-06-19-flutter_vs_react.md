@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/flureact.png
+cover:  assets/images/flureact.jpg
 navigation: True
 title: Flutter versus ReactNative
 date: 2018-06-19 22:00:00
