@@ -5,7 +5,7 @@ cover:  assets/images/sqlnosql.png
 navigation: True
 title: NoSQL vs SQL
 date: 2018-06-21 22:00:00
-tags: [tech]
+tags: [DB]
 class: post-template
 subclass: 'post tag-getting-started'
 author: ykss
