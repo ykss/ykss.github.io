@@ -35,6 +35,7 @@ author: ykss
 (그러나 자바와 비슷하여 장벽이 낮다.)
 3. 아직 완전한 서비스가 아닌 베타 단계이기 때문에 개발중이다.
 4. 32비트 ios는 지원하지 않는다. (아이폰5 단계)
+-> 이 문제는 최근 해결되었다.
 
 ### 2. React Native
 : Reactive view Frameworks
