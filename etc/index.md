@@ -12,3 +12,4 @@ title: etc
 * ### 6.29 [스타트업뽀개기 - 2. 스타트업 모델](http://ykss.github.io/startup2)
 * ### 6.30 [스타트업뽀개기 - 3. 런칭](http://ykss.github.io/startup3)
 * ### 7.3 [스타트업뽀개기 - 4. 피칭](http://ykss.github.io/startup4)
+* ### 7.4 [스타트업뽀개기 - 5. 투자유치](http://ykss.github.io/startup5)
