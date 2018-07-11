@@ -14,3 +14,4 @@ title: etc
 * ### 7.3 [스타트업뽀개기 - 4. 피칭](http://ykss.github.io/startup4)
 * ### 7.4 [스타트업뽀개기 - 5. 투자유치](http://ykss.github.io/startup5)
 * ### 7.6 [스타트업 뽀개기 - 6. 팀 구성하기](http://ykss.github.io/startup6)
+* ### 7.10 [스타트업 뽀개기 - 7. 소셜미디어 활용하기](http://ykss.github.io/startup7)
