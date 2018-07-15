@@ -128,9 +128,13 @@ table {
 img {
     max-width: 100%;
 }
+@font-face {
+    font-family: "Gidole-Regular";
+        src: url( '../_assets/fonts/Gidole-Regular.ttf') format( 'truetype');
+}
 html {
     box-sizing: border-box;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
 
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
