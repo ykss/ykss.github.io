@@ -8,10 +8,14 @@ class: page-template
 subclass: 'post page'
 ---
 
-![ykss](/assets/images/ykss.jpg)
+![ykss2](/assets/images/ykss2.jpg)
 
-* 2012 ~ 2014   East China Normal University <Majored in Chinese>
-* 2015 ~        Handong Global University <Majoring in Computer Science & Business Management >
+* 2012 ~ 2014 
+
+East China Normal University  - Majored in Chinese
+* 2015 ~ 
+
+Handong Global University - Majoring in Computer Science & Business Management 
 
 > Good Developer가 되고싶은 Junior Developer 입니다.
 
