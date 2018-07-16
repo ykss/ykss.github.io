@@ -4,6 +4,6 @@ title: Algorithm
 published: true
 ---
 
-# 알고리즘 연습
+# 2018
 
 * ### 아직 게시물이 없습니다.
