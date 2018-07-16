@@ -7,7 +7,7 @@ title: NoSQL vs SQL
 date: 2018-06-21 22:00:00
 tags: [DB]
 class: post-template
-subclass: 'post tag-DB'
+subclass: 'post tag-db'
 author: ykss
 ---
    
