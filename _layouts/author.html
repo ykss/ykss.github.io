@@ -43,6 +43,9 @@ logo: 'assets/images/ghost.png' -->
                     {% if author[1].facebook %}
                         <a class="social-link social-link-fb" href="https://facebook.com/{{ author[1].facebook }}" target="_blank" rel="noopener">{% include facebook.html %}</a>
                     {% endif %}
+                    {% if author[1].linkedin %}
+                        <a class="social-link social-link-li" href="https://linkedin.com/in/{{ author[1].linkedin }}" target="_blank" rel="noopener">{% include linkedin.html %}</a>
+                    {% endif %}
                     {% if author[1].email %}
                         <a class="social-link social-link-email" href="mailto:&#106;&#105;&#104;&#117;&#110;&#114;&#111;&#104;&#064;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#046;&#107;&#114;" rel="noopener">{% include email.html %}</a>
                     {% endif %}
