@@ -23,6 +23,21 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     {% include head.html %}
 
+    <div>
+        <script>
+            (function() {
+              var cx = '002964981193532052835:fvcyfblr9lc';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search></gcse:search>
+    </div>
+
 </head>
 <body class="{% if paginator.page > 1 %}paged archive-template{% elsif page.class %}{{ page.class }}{% else %}home-template{% endif %}">
 
