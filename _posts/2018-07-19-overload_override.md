@@ -1,0 +1,68 @@
+---
+layout: post
+current: post
+cover:  assets/images/oop1.png
+navigation: True
+title: [OOP] 오버로딩과 오버라이딩의 차이
+date: 2018-07-17 22:00:00
+tags: [TIL]
+class: post-template
+subclass: 'post tag-getting-started'
+author: ykss
+---
+   
+# OOP 개념 - Overloading VS Overriding
+
+## 1. Overloading
+> Load - 짐을 싣는다, 짐을 지다의 의미
+
+일반적으로 한 클래스에 정의된 메서드의 이름은 중복될 수 없지만
+오버로딩은 한 클래스에서 같은 이름을 가진 메서드가 여러개 존재할 수 있게 허용하는 개념이다. 하지만 메서드의 이름은 같아도 되지만, 매개변수까지 같아서는 안된다. 
+
+```
+public class A
+{
+   public int sum(int a, int b)
+   {
+        return a+b;
+   }
+   public int sum(float a, float b)
+   {
+        return a+b;
+   }
+}
+```
+
+* 오버로딩을 사용하는 이유 : 오버로딩을 통해 같은 역할을 하는 메서드인데, 매개변수만 다른 것들을 같은 이름의 메서드로 만들어서, 한가지 역할의 메서드가 필요할 때 하나의 메서드를 매개변수만 다르게 해서 쓸 수 있기 때문에 편리하다. 게다가 객체지향 언어에서는 오버로딩 개념이 없으면 존재 자체가 불가능하다고 할 수 있다. 아래는 C++ 언어의 string 클래스인데, constructor부터 오버로딩의 예로 볼 수 있다.
+
+![string](/assets/images/oop1-1.png)
+
+## 2. Overridding
+> Ride 타다, 실려가다의 의미
+
+오버라이딩은 상속 관계에 있어서, 부모클래스의 메서드를 자식 클래스에서
+같은 이름으로 일할 수 있게 재정의(Redefine)하는 개념이다. 부모 클래스 메서드의 행동이 1이면, 자식 클래스 메서드의 행동을 1 + a로 만들 수 있다. 단, 부모 클래스에서 public, protected로 선언된 메서드만 오버라이딩 가능하다. 그리고 오버라이딩 시에는 오버로딩과 다르게 메서드가 동일해야한다. 
+
+```
+class human{ 
+    public String name;
+    public int age;
+    
+    public void info(){
+        System.out.println("사람의 이름은 "+name+", 나이는 "+age+"살입니다.");
+    }
+    
+}
+ 
+class women extends human{ 
+    String gender;
+
+    public void info() {
+        super.info();
+        System.out.println("성별은 "+gender+"입니다.");
+    }
+}
+```
+
+* 오버라이딩의 핵심은 다형성(Polymorphism)이다. 다형성은 객체지향 언어의 핵심 특징이기도 하다. 다형성이라는 개념을 쉽게 말하면 같은 형태이지만 여러 기능을 한다는 뜻으로 생각하면 쉽다. 
+
