@@ -14,3 +14,7 @@
   name: db
   description: 데이터베이스
   cover: False
+ TIL:
+  name: Today I Learned
+  description: 공부한 흔적.
+  cover: False
