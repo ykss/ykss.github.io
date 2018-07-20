@@ -14,6 +14,7 @@
     --whitegrey: #e5eff5;
     --pink: #fa3a57;
     --brown: #a3821a;
+    font-family: 'Nanum Gothic', serif !important ;
 }
 
 /* Reset
@@ -99,7 +100,7 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Nanum Gothic', serif;
+    font-family: 'Nanum Gothic', serif !important ;
     font-size: 20px;
     vertical-align: baseline;
 }
