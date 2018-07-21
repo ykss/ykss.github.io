@@ -18,6 +18,7 @@ East China Normal University  - Majored in Chinese
 Handong Global University - Majoring in Computer Science & Business Management 
 
 > Good Developer가 되고싶은 Junior Developer 입니다.
+>> I want to be a developer with good influence.
 
 [on Github](https://github.com/ykss).
 [on Facebook](https://facebook.com/kyeongsang.yu).
