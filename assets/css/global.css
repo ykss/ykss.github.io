@@ -100,7 +100,7 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Nanum Gothic', serif !important ;
+    font-family: 'Nanum Gothic';
     font-size: 20px;
     vertical-align: baseline;
 }
