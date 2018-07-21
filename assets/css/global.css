@@ -135,12 +135,9 @@ img {
 }
 @font-face {
     font-family: 'Nanum Gothic', serif;
-    /* font-family: "Gidole-Regular";
-        src: url( '../_assets/fonts/Gidole-Regular.ttf') format('truetype'); */
 }
 html {
     box-sizing: border-box;
-    /* font-family: sans-serif; */
 
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -295,9 +292,6 @@ body {
     overflow-x: hidden;
     color: color(var(--midgrey) l(-25%));
     font-family: 'Nanum Gothic';
-    /* font-family: "Gidole-Regular";
-        src: url( '../_assets/fonts/Gidole-Regular.ttf') format('truetype'); */
-    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
     font-size: 1.5rem;
     line-height: 1.6em;
     font-weight: 400;
@@ -308,7 +302,6 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    /* -moz-font-feature-settings: "liga" on; */
 }
 
 ::selection {
