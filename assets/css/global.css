@@ -1,6 +1,10 @@
 /* Variables
 /* ---------------------------------------------------------- */
 
+* {
+    font-family: 'Nanum Gothic' !important;
+}
+
 :root {
     /* Colours */
     --blue: #3eb0ef;
