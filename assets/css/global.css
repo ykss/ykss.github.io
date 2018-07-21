@@ -18,7 +18,7 @@
     --whitegrey: #e5eff5;
     --pink: #fa3a57;
     --brown: #a3821a;
-    font-family: 'Nanum Gothic', serif !important ;
+    font-family: 'Nanum Gothic' !important ;
 }
 
 /* Reset
@@ -134,7 +134,7 @@ img {
     max-width: 100%;
 }
 @font-face {
-    font-family: 'Nanum Gothic', serif;
+    font-family: 'Nanum Gothic';
 }
 html {
     box-sizing: border-box;
@@ -196,9 +196,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: 'Nanum Gothic', serif;
-    /* font-family: "Gidole-Regular";
-        src: url( '../_assets/fonts/Gidole-Regular.ttf') format('truetype'); */
+    font-family: 'Nanum Gothic';
     font-size: 1em;
 }
 button,
@@ -208,7 +206,7 @@ select,
 textarea {
     margin: 0; /* 3 */
     color: inherit; /* 1 */
-    font-family: 'Nanum Gothic', serif;/* 2 */
+    font-family: 'Nanum Gothic';/* 2 */
 }
 button {
     overflow: visible;
