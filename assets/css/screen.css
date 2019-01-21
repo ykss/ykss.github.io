@@ -736,7 +736,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 @media (max-width: 1040px) {
     .post-full-content img,
     .post-full-content video {
-        width: 100%;
+        width: 70%;
     }
 }
 
