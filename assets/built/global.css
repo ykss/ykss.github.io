@@ -391,7 +391,7 @@ dd {
 blockquote {
     margin: 1.5em 0;
     padding: 0 1.6em;
-    border-left: .5em solid white
+    border-left: .5em solid white !important;
 }
 
 blockquote p {

@@ -1213,7 +1213,7 @@ body {
     font-size: .8em;
     line-height: 1em;
     font-weight: 400 !important;
-    background: white;
+    background: white !important;
     border-radius: 3px
 }
 
@@ -1223,7 +1223,7 @@ body {
     padding: 20px;
     max-width: 100%;
     border: 1px solid #000;
-    color: white;
+    color: white !important;
     font-size: 1.4rem;
     line-height: 1.5em;
     background: #0e0f11;
