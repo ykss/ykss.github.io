@@ -391,7 +391,7 @@ dd {
 blockquote {
     margin: 1.5em 0;
     padding: 0 1.6em;
-    border-left: .5em solid #e5eff5
+    border-left: .5em solid white
 }
 
 blockquote p {
@@ -1213,7 +1213,7 @@ body {
     font-size: .8em;
     line-height: 1em;
     font-weight: 400 !important;
-    background: #e5eff5;
+    background: white;
     border-radius: 3px
 }
 
@@ -1223,7 +1223,7 @@ body {
     padding: 20px;
     max-width: 100%;
     border: 1px solid #000;
-    color: #e5eff5;
+    color: white;
     font-size: 1.4rem;
     line-height: 1.5em;
     background: #0e0f11;
